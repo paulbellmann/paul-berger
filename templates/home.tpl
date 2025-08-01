@@ -34,16 +34,20 @@
     </table>
 
     <form action="/create" method="post" class="row mt-4">
-        <div class="col-md-2">
-            <input type="text" class="form-control" name="id" placeholder="Artikelnumer" required />
+        <div class="col-md-2 mb-2">
+            <label for="item-id" class="form-label d-md-none">Artikelnumer</label>
+            <input type="text" class="form-control" id="item-id" name="id" placeholder="Artikelnumer" required />
         </div>
-        <div class="col-md-5">
-            <input type="text" class="form-control" name="name" placeholder="Name" required />
+        <div class="col-md-5 mb-2">
+            <label for="item-name" class="form-label d-md-none">Name</label>
+            <input type="text" class="form-control" id="item-name" name="name" placeholder="Name" required />
         </div>
-        <div class="col-md-3">
-            <input type="text" class="form-control" name="price" placeholder="Preis" required />
+        <div class="col-md-3 mb-2">
+            <label for="item-price" class="form-label d-md-none">Preis</label>
+            <input type="text" class="form-control" id="item-price" name="price" placeholder="Preis" required />
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 mb-2">
+            <span class="d-md-none form-label">&nbsp;</span>
             <button type="submit" class="btn btn-primary w-100">
                 <i class="bi bi-plus-square"></i> Hinzufügen
             </button>
