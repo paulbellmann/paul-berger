@@ -62,6 +62,7 @@ Eine Umsetzung all dieser Punkte würde jedoch den zeitlichen Rahmen dieses Proj
 ```bash
 git clone https://github.com/paulbellmann/paul-berger.git
 cd paul-berger
+cp sample.env .env
 docker compose up -d
 ```
 
@@ -70,7 +71,7 @@ Anschließend in den Container wechseln und ein Verzeichnis zurückgehen, um die
 ```bash
 docker compose exec webserver bash
 cd /var/www/
-composer install
+./setup.sh
 ```
 
 Die Anwendung ist anschließend unter [http://localhost](http://localhost) erreichbar. PHPMyAdmin steht unter [http://localhost:8080](http://localhost:8080) zur Verfügung.

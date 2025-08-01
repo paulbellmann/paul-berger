@@ -20,6 +20,7 @@ services:
       - ./tests:/var/www/tests:rw
       - ./composer.json:/var/www/composer.json
       - ./composer.lock:/var/www/composer.lock
+      - ./setup.sh:/var/www/setup.sh
       - ${PHP_INI-./config/php/php.ini}:/usr/local/etc/php/php.ini
       - ${SSL_DIR-./config/ssl}:/etc/apache2/ssl/
       - ${VHOSTS_DIR-./config/vhosts}:/etc/apache2/sites-enabled
