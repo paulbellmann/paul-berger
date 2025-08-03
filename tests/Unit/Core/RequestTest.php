@@ -49,7 +49,7 @@ class RequestTest extends TestCase
         $all = $request->all();
         $this->assertArrayHasKey('foo', $all);
         $this->assertArrayHasKey('baz', $all);
-        $this->assertEquals('bar', $all['fo']);
+        $this->assertEquals('bar', $all['foo']);
         $this->assertEquals('qux', $all['baz']);
     }
 }
