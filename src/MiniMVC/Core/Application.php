@@ -40,14 +40,11 @@ class Application
 
     private function handleError(\Throwable $e): void
     {
-        echo getenv('APP_DEBUG') . '##';
         if (getenv('APP_DEBUG')) {
             echo "Error: " . $e->getMessage() . "\n";
             echo "File: " . $e->getFile() . ":" . $e->getLine() . "\n";
         } else {
             echo "Internal Server Error";
-            echo "Error: " . $e->getMessage() . "\n";
-            echo "File: " . $e->getFile() . ":" . $e->getLine() . "\n";
         }
     }
 }
