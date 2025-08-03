@@ -41,16 +41,17 @@ Die Statistik gruppiert die Artikel anhand der ersten beiden Ziffern der Artikel
 Für produktive Umgebungen empfiehlt sich der Einsatz etablierter Frameworks wie Symfony oder Laravel sowie eines ORMs wie Doctrine. Diese bieten Vorteile hinsichtlich Sicherheit, Performance und einer sauberen Implementierung von Dependency Injection. In diesem Projekt wurde bewusst auf solche Frameworks verzichtet, um die eigene Herangehensweise und Programmierweise transparent darzustellen.
 
 Es bestehen zahlreiche Möglichkeiten zur Weiterentwicklung der Anwendung, beispielsweise:
+- Verbesserte Dependency Injection
+- Genauere Validierung der Requests
+- Verwendung korrekter HTTP-Methoden für CRUD-Operationen
+- Implementierung von REST-Endpunkten und AJAX-Requests im Frontend
 - Erweiterte Testabdeckung
 - Integrationstests
 - Implementierung von Benutzerverwaltung und Authentifizierung
 - Paginierung der Tabellenansicht
 - Indexierung der Datenbank
 - Preisberechnung und Speicherung in Cents
-- Verbesserte Dependency Injection
 - Automatisiertes Deployment
-- Verwendung korrekter HTTP-Methoden für CRUD-Operationen
-- Implementierung von REST-Endpunkten und AJAX-Requests im Frontend
 - Optimierung von UX/UI
 - Statische Codeanalyse und automatisierte Tests (CI)
 - Automatische Befüllung der Datenbank mit Testdaten nach Docker-Initialisierung
