@@ -42,9 +42,11 @@ Für produktive Umgebungen empfiehlt sich der Einsatz etablierter Frameworks wie
 
 Es bestehen zahlreiche Möglichkeiten zur Weiterentwicklung der Anwendung, beispielsweise:
 - Verbesserte Dependency Injection
-- Genauere Validierung der Requests
+- Präzisere Validierung der eingehenden Requests
+- Auswahl eines alternativen Primary Keys mit Autoincrement anstelle der Artikelnummer
 - Verwendung korrekter HTTP-Methoden für CRUD-Operationen
 - Implementierung von REST-Endpunkten und AJAX-Requests im Frontend
+- Durchführung eines Duplikatschecks in der Datenbank vor dem Einfügen neuer Einträge
 - Erweiterte Testabdeckung
 - Integrationstests
 - Implementierung von Benutzerverwaltung und Authentifizierung
