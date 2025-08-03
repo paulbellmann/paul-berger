@@ -8,5 +8,6 @@ class ItemModel
         public string $id,
         public string $name,
         public int $price,
-    ) {}
+    ) {
+    }
 }

@@ -85,3 +85,11 @@ docker compose exec webserver bash
 cd /var/www/
 composer test
 ```
+
+### Code-Style automatisch korrigieren
+
+```bash
+docker compose exec webserver bash
+cd /var/www/
+composer fix
+```
